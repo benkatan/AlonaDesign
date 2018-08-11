@@ -7,6 +7,7 @@
     background-image: url('../../../assets/images/sketch-fish.png') ;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .title{
@@ -38,9 +39,13 @@
     color: black;
     border: 1px solid black;
     border-radius: 57px;
-    padding: 2%;
+    padding: 1%;
     font-size: 15px;
     font-weight: bold;
+
+    -webkit-box-shadow: 0px 10px 64px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 64px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 64px -1px rgba(0,0,0,0.75);
 
     &:hover{
         background-color: white;
