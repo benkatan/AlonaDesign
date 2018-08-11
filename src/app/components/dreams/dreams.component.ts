@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-dreams',
@@ -7,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DreamsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private renderer: Renderer2) { }
+
+  public scroll; 
+  public sections = 4;
 
   ngOnInit() {
+    this.renderer.listen(window, 'scroll', ($event) => {
+      this.scroll = (window.scrollY / this.sections);
+   })
   }
+
+
 
    text1 = "During my service in GLZ radio i have established their Podcasts Department. As part of my work as editor and producer I've created the “Dreams” - “חלומות” podcast. Short radio stories episodes that reveal the realms we enter at night. I made 30 episodes that have been heard more than 50,000 times"
    text2=" You can listen to an episode in English to understand a bit more about the project. (Headphones are advised) "
