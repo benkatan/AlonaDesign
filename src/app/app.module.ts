@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { PopupComponent } from './components/popup/popup.component';
 import { HomeComponent } from './components/home/home.component';
 import { DreamsComponent } from './components/dreams/dreams.component';
+import { PlayComponent } from './components/play/play.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PopupComponent,
     HomeComponent,
-    DreamsComponent
+    DreamsComponent,
+    PlayComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule

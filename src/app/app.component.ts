@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'AlonaDesign';
   show = false;
+  imgSrc;
 
 
   public togglePic() {
@@ -16,5 +17,11 @@ export class AppComponent {
 
   public closePic() {
     this.show = false;
+  }
+
+  public onImgSrc(item) {
+    this.show = true;
+    this.imgSrc = item;
+    console.log(this.imgSrc);
   }
 }

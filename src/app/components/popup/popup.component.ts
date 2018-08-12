@@ -9,6 +9,7 @@ export class PopupComponent implements OnInit {
 
 
   @Input()show;
+  @Input()imgSrc;
   @Output() close: EventEmitter<any> = new EventEmitter();
 
   constructor() { }

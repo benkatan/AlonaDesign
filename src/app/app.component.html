@@ -3,9 +3,13 @@
 
   <app-dreams></app-dreams>
 
+  <app-play (img) = "onImgSrc($event)"></app-play>
+
 <section>
   <app-popup [show] = show 
-  (close) = "closePic()">
+  [imgSrc] = imgSrc
+  (close) = "closePic()"
+  >
 </app-popup>
 </section>
 
