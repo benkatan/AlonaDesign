@@ -1,9 +1,16 @@
 
   <app-home></app-home>
 
-  <app-dreams></app-dreams>
 
+  <section id="dream">
+  <app-dreams></app-dreams>
+</section>
+
+<section id="blackRin">
   <app-play (img) = "onImgSrc($event)"></app-play>
+</section>
+
+<div class="flout-btn" id="go-to-top">Top</div>
 
 <section>
   <app-popup [show] = show 
