@@ -13,6 +13,10 @@ export class InspirationComponent implements OnInit {
   ngOnInit() {
 
     var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
@@ -24,6 +28,7 @@ export class InspirationComponent implements OnInit {
         modifier: 1,
         slideShadows : true,
       },
+      
       pagination: {
         el: '.swiper-pagination',
       },
