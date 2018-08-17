@@ -15,5 +15,6 @@ export const appRoutes: Routes = [
     { path: 'Costume',      component:  PlayComponent},
     { path: 'EvreyOneWantsToLive',      component:  EvreyOneWantsToLiveComponent},
     { path: 'SketchBook',      component: SketchBookComponent },
+    { path: '', redirectTo: '/Home', pathMatch: 'full' },
 
   ];
