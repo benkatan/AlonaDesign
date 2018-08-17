@@ -1,16 +1,171 @@
 :host{
     width: 100%;
+    min-height: 100%;
 }
 
-.img-art{
-    min-height: 25%;
-    max-height: 50%;
-    background-color: #333;
+.home-main{
+    min-height: 100%;
+}
 
-    &:hover{
-        opacity: 0.9;
-        transition: all 0.3s linear;
+.front-text{
+    visibility: hidden;
+    font-family: Heebo;
+    color: white;
+    padding:    8%;
+    >h1{
+        font-size: 70px;
     }
+    >span{
+        font-size: 18px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+}
+
+.img-art-1{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+
+ 
+
+    &::before{
+        content: "";
+        background-image: url('../../../assets/images/dreams-new-web.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+       
+    }  
+}
+
+.img-art-1:hover::before{
+    opacity: 0.6;
+    transition: all 0.3s  linear;
+ 
+}
+
+.img-art-1:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+
+.img-art-2{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+
+    &::before{
+        content: "";
+        
+        background-image: url('../../../assets/images/black-rain2-new-web.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+       
+    }  
+}
+
+.img-art-2:hover::before{
+    opacity: 0.6;
+    transition: all 0.3s  linear;
+}
+
+.img-art-3{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+ 
+
+    &::before{
+        content: "";
+        
+        background-image: url('../../../assets/images/clothing-new-web.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+       
+    }  
+}
+
+.img-art-3:hover::before{
+    opacity: 0.6;
+    transition: all 0.3s  linear;
+}
+
+.img-art-4{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+ 
+
+    &::before{
+        content: "";
+        
+        background-image: url('../../../assets/images/inspiration-new-web.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+       
+    }  
+}
+
+.img-art-4:hover::before{
+    opacity: 0.6;
+    transition: all 0.3s  linear;
+}
+
+.img-art-5{
+    position: relative;
+    z-index: 1;
+    background-color: black;
+ 
+
+    &::before{
+        content: "";
+        
+        background-image: url('../../../assets/images/sketch-new0web.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+       
+    }  
+}
+
+.img-art-5:hover::before{
+    opacity: 0.6;
+    transition: all 0.3s  linear;
 }
 
 .title{
@@ -20,3 +175,25 @@
 .pointer{
     cursor: pointer;
 }
+
+.img-art-1:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+.img-art-2:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+.img-art-3:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+.img-art-4:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+.img-art-5:hover .front-text {
+    visibility: visible;
+    transition: all 0.3s linear;
+}
+

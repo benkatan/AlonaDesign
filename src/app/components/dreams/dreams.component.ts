@@ -20,9 +20,9 @@ export class DreamsComponent implements OnInit {
 
 
 
-   text1 = "During my service in GLZ radio i have established their Podcasts Department. As part of my work as editor and producer I've created the “Dreams” - “חלומות” podcast. Short radio stories episodes that reveal the realms we enter at night. I made 30 episodes that have been heard more than 50,000 times"
-   text2=" You can listen to an episode in English to understand a bit more about the project. (Headphones are advised) "
-   text3=" In addition to the episodes I designed each of them an individual banner that catches the visual essence of the dream"
+   text1 = "During my service in GLZ radio I've established the GLZ Podcasts Department. As part of my work as editor and producer I've created the “Dreams” - “חלומות” podcast. Short radio stories episodes that reveal the realms we enter at night. I created 30 episodes that have listened to over 50,000 times."
+   text2=" You’re welcome to listen to an episode in English to understand a bit more about the project. (Headphones are advised)"
+   text3=" In addition to the episodes I designed each of them an individual banner that catches the visual essence of the dream."
 
    title4="A Croc Under the Bed"
    text4="A nightly battle between a sleepy boy and the crocodile under his bed."

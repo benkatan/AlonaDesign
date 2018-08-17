@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
 
   goToPage(link) {
-    console.log(link);
-    // this.router.navigate[link];
+    console.log(link)
+    this.router.navigate(["/" + link]);
   }
 }

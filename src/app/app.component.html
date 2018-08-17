@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light sticky-top  border-bottom">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white  border-bottom">
   <a class="navbar-brand" href="#">Alona Design</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
     </ul>
   </div>
 </nav>
-<main [@routerTransition]="o.isActivated ? o.activatedRoute : ''">
+<main style="min-height: 100%" [@routerTransition]="o.isActivated ? o.activatedRoute : ''">
 <router-outlet #o="outlet"></router-outlet>
 </main>
 
