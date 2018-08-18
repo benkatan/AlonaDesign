@@ -1,6 +1,7 @@
 :host{
     width: 100%;
     min-height: 100%;
+    font-family: 'Lato';
 }
 
 .home-main{
@@ -9,17 +10,20 @@
 
 .front-text{
     visibility: hidden;
-    font-family: Heebo;
+    
     color: white;
     padding:    8%;
     >h1{
         font-size: 70px;
+        font-family: 'Lato';
     }
     >span{
         font-size: 18px;
+        font-family: 'Lato';
     }
     .bold{
         font-weight: bold;
+        font-family: 'Lato';
     }
 }
 
@@ -170,6 +174,10 @@
 
 .title{
     text-align: center;
+    >h1{
+        font-family: 'Lato';
+        font-weight: 800;
+    }
 }
 
 .pointer{

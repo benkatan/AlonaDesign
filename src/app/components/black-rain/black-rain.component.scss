@@ -1,0 +1,24 @@
+:host{
+    width: 100%;
+}
+
+.title{
+    >h2{
+        font-family: 'Lato';
+        font-weight: bold;
+    }
+    >p{      
+        font-size: 18px;  
+        font-family: 'Lato';
+        font-weight: bold;
+    }
+}
+
+.sections{
+    >div{
+        >p{
+            font-family: 'Lato';
+            font-size: 18px;
+        }
+    }
+}
