@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import AOS from '../../../assets/jsFile/aos.js';
 
 @Component({
@@ -6,12 +6,17 @@ import AOS from '../../../assets/jsFile/aos.js';
   templateUrl: './evrey-one-wants-to-live.component.html',
   styleUrls: ['./evrey-one-wants-to-live.component.scss']
 })
-export class EvreyOneWantsToLiveComponent implements OnInit {
+export class EvreyOneWantsToLiveComponent implements OnInit,  AfterViewInit {
+
 
   constructor() { }
 
   ngOnInit() {
-   AOS.init();
+
+  }
+
+  ngAfterViewInit(): void {
+    AOS.init();
   }
 
 }
