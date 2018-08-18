@@ -12,7 +12,8 @@ import { EvreyOneWantsToLiveComponent } from './components/evrey-one-wants-to-li
 import { SketchBookComponent } from './components/sketch-book/sketch-book.component';
 import { RouterModule } from '../../node_modules/@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {appRoutes} from './routes'
+import {appRoutes} from './routes';
+import { FooterComponent } from './components/footer/footer.component'
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import {appRoutes} from './routes'
     BlackRainComponent,
     EvreyOneWantsToLiveComponent,
     SketchBookComponent,
+    FooterComponent,
     
   ],
   imports: [

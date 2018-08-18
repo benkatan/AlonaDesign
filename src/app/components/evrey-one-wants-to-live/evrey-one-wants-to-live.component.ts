@@ -12,11 +12,11 @@ export class EvreyOneWantsToLiveComponent implements OnInit,  AfterViewInit {
   constructor() { }
 
   ngOnInit() {
-
+    AOS.init();
   }
 
   ngAfterViewInit(): void {
-    AOS.init();
+    
   }
 
 }

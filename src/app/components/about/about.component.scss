@@ -10,8 +10,29 @@
 
 .about-title{
     text-align: center;
+    h2>{
+        font-family: 'Lato';
+        font-weight: bold;
+    }
 }
 
 .about-container{
     min-height: 50%;
+    p{
+        font-family: 'Lato';
+        font-size: 18px;
+    }
+}
+
+p{
+    font-family: 'Lato';
+}
+
+.page-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
 }

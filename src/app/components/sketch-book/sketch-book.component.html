@@ -1,11 +1,12 @@
 <div class="sketch-main">
   <div class=" container title text-center mt-5 border-bottom">
     <h2>Sketchbook</h2>
-    <p>The insides of a small notebook I carry with me everywhere I go</p>
+    <p>A few pages from a small notebook I carry with me everywhere I go</p>
   </div>
   <div *ngFor="let item of items;" class="container section mt-5 mb-5">
     <div>
       <img class="img-fluid"  src ="../../../assets/images/sketch{{item}}.png" alt="">
     </div>
   </div>
+  <app-footer></app-footer>
 </div>

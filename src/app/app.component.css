@@ -15,3 +15,12 @@
     top: 90%;
     z-index: 1000;
 }
+
+.mt-ben{
+    margin-top: 5rem;
+}
+
+.title{
+    font-family: 'Lato';
+    font-weight: bold;
+}
