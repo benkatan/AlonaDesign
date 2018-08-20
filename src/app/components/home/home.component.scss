@@ -8,6 +8,12 @@
     min-height: 100%;
 }
 
+
+
+.home-section{
+    width: 100% !important;
+}
+
 .front-text{
     visibility: hidden;
     
@@ -36,7 +42,7 @@
 
     &::before{
         content: "";
-        background-image: url('../../../assets/images/dreams-new-web.png');
+        background-image: url('../../../assets/images/homePage/dreams-new-web.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -69,7 +75,7 @@
     &::before{
         content: "";
         
-        background-image: url('../../../assets/images/black-rain2-new-web.png');
+        background-image: url('../../../assets/images/homePage/black-rain2-new-web.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -98,7 +104,7 @@
         content: "";
         
         // background-image: url('../../../assets/images/clothing-new-web.png');
-        background-image: url('../../../assets/images/new-web-clothing-very-new.png');
+        background-image: url('../../../assets/images/homePage/new-web-clothing-very-new.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -126,7 +132,7 @@
     &::before{
         content: "";
         
-        background-image: url('../../../assets/images/new-web-hanoch.png');
+        background-image: url('../../../assets/images/homePage/new-web-hanoch.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;
@@ -154,7 +160,7 @@
     &::before{
         content: "";
         
-        background-image: url('../../../assets/images/new-web-sketch-very-new.png');
+        background-image: url('./../../../assets/images/homePage/new-web-sketch-very-new.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;

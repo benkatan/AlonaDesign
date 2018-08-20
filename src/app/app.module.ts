@@ -35,7 +35,7 @@ import { FooterComponent } from './components/footer/footer.component'
     BrowserAnimationsModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+  // <-- debugging purposes only
     )
   ],
   providers: [],
