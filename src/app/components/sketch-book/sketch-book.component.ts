@@ -13,5 +13,5 @@ export class SketchBookComponent implements OnInit {
   ngOnInit() {
     AOS.init();
   }
-public items = [1,7,8,11,5,13,2,6,9,12];
+public items = [1,7,8,11,5,13,2,6,9,12,14];
 }
